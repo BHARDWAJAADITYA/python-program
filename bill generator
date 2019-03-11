@@ -1,0 +1,22 @@
+price={ "ol":70,"gh":440,"dl":50,"sg":45,"sl":30,"wh":60,"dt":100,"bs":20 }
+items={ "ol":"oil","gh":"ghee","dl":"dal","sg":"sugar","sl":"salt","wh":"wheat","dt":"detergent","bs":"biscuit" }
+i = "y"
+nitems={}
+amount=[]
+while i != "n" and i != "N"
+    print(items)
+    text=input("enter code and quantity").split()
+    nitems[text[0]]=text[1]
+    amount.append(int(price[text[0]])*int(text[1]))
+    i=str(input("To continue shopping press y else press n : ")) 
+print("item\t\tqantity\tprice\tamount")
+f=len(amount)
+sum=0
+for i in range(f):
+    print(items[list(nitems)[i]],end = "\t\t")
+    print(nitems[list(nitems)[i]],end="\t")
+    print(price[list(nitems)[i]],end="\t")
+    print(int(price[list(nitems)[i]])*int(nitems[list(nitems)[0]]))
+    sum=sum+(int(price[list(nitems)[i]])*int(nitems[list(nitems)0]]))
+print("total amount\t\t",end="\t")
+print(sum)
