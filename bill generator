@@ -13,10 +13,10 @@ print("item\t\tqantity\tprice\tamount")
 f=len(amount)
 sum=0
 for i in range(f):
-    print(items[list(nitems)[i]],end = "\t\t")
+    print(items[list(nitems)[i]],end = "\tt")
     print(nitems[list(nitems)[i]],end="\t")
     print(price[list(nitems)[i]],end="\t")
     print(int(price[list(nitems)[i]])*int(nitems[list(nitems)[0]]))
     sum=sum+(int(price[list(nitems)[i]])*int(nitems[list(nitems)0]]))
-print("total amount\t\t",end="\t")
+print("total amount\t\t",end="t")
 print(sum)
