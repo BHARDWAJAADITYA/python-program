@@ -1,0 +1,348 @@
+l1= ["#","#","#","#","#","#","#"," "," "," "," "," "," "," ","#","#","#","#","#","#"]
+l2= ["#","#","#","#","#","#"," ","#","#","#","#","#","#","#","#","#","#","#","#","#"]
+l3= ["#","#"," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," ","#","#"]
+l4= ["#","#","#","#","#","#"," ","#","#","#","#","#","#","#","#","#","#","#","#","#"]
+l5= ["#","#","#","#","#","#"," ","#"," "," "," "," "," ","#","#","#","#","#","#","#"]
+l6= ["#","#","#","#","#","#"," ","#","#","#","#","#","#","#","#","#","#"," ","#","#"]
+l7= ["#","#","#","#","#","#","#","#"," ","#","#","#"," ","#","#","#","#"," ","#","#"]
+l8= ["#","#"," "," "," "," "," "," "," "," ","#","#"," "," "," "," "," "," ","#"," "]
+l9= ["#","#","#","#","#","#","#","#"," ","#"," ","#"," ","#","#","#","#"," ","#"," "]
+l10=["#","#","#","#","#","#","#","#"," ","#"," ","#"," ","#","#","#","#"," ","#"," "]
+l11=["#","#","#"," ","#","#","#","#"," ","#"," ","#"," ","#","#","#","#"," ","#"," "]
+l12=["#","#","#"," ","#","#","#"," "," "," "," "," "," "," "," ","#","#"," ","#"," "]
+l13=["#","#","#"," ","#","#"," ","#"," ","#","#","#"," ","#","#"," ","#"," ","#"," "]
+l14=["#","#","#"," ","#"," "," "," "," "," ","#","#"," ","#","#"," ","#"," ","#"," "]
+l15=["#","#","#"," ","#","#"," ","#","#","#"," ","#"," ","#","#"," ","#"," ","#"," "]
+l16=["#","#","#"," ","#","#"," ","#","#","#"," ","#"," ","#","#"," ","#","#","#"," "]
+l17=[" "," "," "," "," "," "," ","#"," "," "," "," "," "," "," "," "," "," "," "," "]
+l18=["#","#","#"," ","#","#"," ","#","#","#","#","#","#","#","#"," ","#","#","#","#"]
+l19=["#","#","#","#","#","#"," ","#","#","#","#","#","#","#","#","#","#","#","#","#"]
+l20=["#","#","#","#","#"," "," "," "," "," "," "," "," "," "," ","#","#","#","#","#"]
+def ques():
+    print("Across")
+    print("1. This is required by law to drive")
+    print("3. An area where you should look and listen before crossing")
+    print("4. Perform this action safely by looking and using a signal")
+    print("8. A lifesaving restraint")
+    print("9. They are here to keep us safe!")
+    print("13. A large vehicle to take precaution around")
+    print("16. To not be intoxicated")
+    print("18. How the driver indicates which way they are turning")
+    print("19. Something you should avoid while driving")
+    print("20. Watch for these to cross the road")
+    print("Down")
+    print("2. You apply this to stop your vehicle")
+    print("5. A pace by which you must abide by")
+    print("6. Slippery roadways that may not appear as so")
+    print("7. The indicator of how quickly you are traveling")
+    print("10. People the driver is responsible for")
+    print("11. The part of your vehicle that meets the road")
+    print("12. An area where traffic fines double")
+    print("14. Emotions to keep under control while driving")
+    print("15. You should turn these on for safety")
+    print("17. A digital aid in navigating")
+def ans():
+    l1= ["#","#","#","#","#","#","#","L","I","C","E","N","C","E","#","#","#","#","#","#"]
+    l2= ["#","#","#","#","#","#","B","#","#","#","#","#","#","#","#","#","#","#","#","#"]
+    l3= ["#","#","R","A","I","L","R","O","A","D","C","R","O","S","S","I","N","G","#","#"]
+    l4= ["#","#","#","#","#","#","A","#","#","#","#","#","#","#","#","#","#","#","#","#"]
+    l5= ["#","#","#","#","#","#","K","#","M","E","R","G","E","#","#","#","#","#","#","#"]
+    l6= ["#","#","#","#","#","#","E","#","#","#","#","#","#","#","#","#","#","S","#","#"]
+    l7= ["#","#","#","#","#","#","#","#","B","#","#","#","S","#","#","#","#","P","#","#"]
+    l8= ["#","#","S","E","A","T","B","E","L","T","#","#","P","O","L","I","C","E","#","P"]
+    l9= ["#","#","#","#","#","#","#","#","A","#","T","#","E","#","#","#","#","E","#","A"]
+    l10=["#","#","#","#","#","#","#","#","C","#","I","#","E","#","#","#","#","D","#","S"]
+    l11=["#","#","#","W","#","#","#","#","K","#","R","#","D","#","#","#","#","L","#","S"]
+    l12=["#","#","#","O","#","#","#","W","I","D","E","L","O","A","D","#","#","I","#","E"]
+    l13=["#","#","#","R","#","#","R","#","C","#","#","#","M","#","#","L","#","M","#","N"]
+    l14=["#","#","#","K","#","S","O","B","E","R","#","#","E","#","#","I","#","I","#","G"]
+    l15=["#","#","#","Z","#","#","A","#","#","#","G","#","T","#","#","G","#","T","#","E"]
+    l16=["#","#","#","O","#","#","D","#","#","#","P","#","E","#","#","H","#","#","#","R"]
+    l17=["B","L","I","N","K","E","R","#","D","I","S","T","R","A","C","T","I","O","N","S"]
+    l18=["#","#","#","E","#","#","A","#","#","#","#","#","#","#","#","S","#","#","#","#"]
+    l19=["#","#","#","#","#","#","G","#","#","#","#","#","#","#","#","#","#","#","#","#"]
+    l20=["#","#","#","#","#","P","E","D","E","S","T","R","A","I","N","#","#","#","#","#"]
+    print(l1)
+    print(l2)
+    print(l3)
+    print(l4)
+    print(l5)
+    print(l6)
+    print(l7)
+    print(l8)
+    print(l9)
+    print(l10)
+    print(l11)
+    print(l12)
+    print(l13)
+    print(l14)
+    print(l15)
+    print(l16)
+    print(l17)
+    print(l18)
+    print(l19)
+    print(l20)
+#down
+def down():
+    print("choose a ques no.\n2,5,6,8,10,11,12,14,15,17")
+    q=int(input("enter the q no."))
+    if(q==2):
+        a=[]
+        b=input("enter the STRING")
+        a=list(b)
+        if(len(a)==5):
+            l2[6]=a[0]
+            l3[6]=a[1]
+            l4[6]=a[2]
+            l5[6]=a[3]
+            l6[6]=a[4]
+    if(q==5):
+        a=[]
+        b=input("enter the STRING")
+        a=list(b)
+        if(len(a)==10):
+            l6[17]=a[0]
+            l7[17]=a[1]
+            l8[17]=a[2]
+            l9[17]=a[3]
+            l10[17]=a[4]
+            l11[17]=a[5]
+            l12[17]=a[6]
+            l13[17]=a[7]
+            l14[17]=a[8]
+            l15[17]=a[9]
+            
+    if(q==6):
+        a=[]
+        b=input("enter the STRING")
+        a=list(b)
+        if(len(a)==8):
+            l7[12]=a[0]
+            l8[12]=a[1]
+            l9[12]=a[2]
+            l10[12]=a[3]
+            l11[12]=a[4]
+            l12[12]=a[5]
+            l13[12]=a[6]
+            l14[12]=a[7]
+    if(q==7):
+        a=[]
+        b=input("enter the STRING")
+        a=list(b)
+        if(len(a)==11):
+            l7[12]=a[0]
+            l8[12]=a[1]
+            l9[12]=a[2]
+            l10[12]=a[3]
+            l11[12]=a[4]
+            l12[12]=a[5]
+            l13[12]=a[6]
+            l14[12]=a[7]
+            l12[12]=a[8]
+            l13[12]=a[9]
+            l14[12]=a[10]
+    if(q==10):
+        a=[]
+        b=input("enter the STRING")
+        a=list(b)
+        if(len(a)==12):
+            l8[19]=a[0]
+            l9[19]=a[1]
+            l10[19]=a[2]
+            l11[19]=a[3]
+            l12[19]=a[4]
+            l13[19]=a[5]
+            l14[19]=a[6]
+            l15[19]=a[7]
+            l16[19]=a[8]
+            l17[19]=a[9]
+            l18[19]=a[10]
+            l19[19]=a[11]
+    if(q==11):
+        a=[]
+        b=input("enter the STRING")
+        a=list(b)
+        if(len(a)==4):
+            l9[10]=a[0]
+            l10[10]=a[1]
+            l11[10]=a[2]
+            l12[10]=a[3]
+    if(q==12):
+        a=[]
+        b=input("enter the STRING")
+        a=list(b)
+        if(len(a)==8):
+            l11[3]=a[0]
+            l12[3]=a[1]
+            l13[3]=a[2]
+            l14[3]=a[3]
+            l15[3]=a[4]
+            l16[3]=a[5]
+            l17[3]=a[6]
+            l18[3]=a[7]
+    if(q==14):
+        a=[]
+        b=input("enter the STRING")
+        a=list(b)
+        if(len(a)==8):
+            l13[6]=a[0]
+            l14[6]=a[1]
+            l15[6]=a[2]
+            l16[6]=a[3]
+            l17[6]=a[4]
+            l18[6]=a[5]
+            l19[6]=a[6]
+            l20[6]=a[7]
+    if(q==15):
+        a=[]
+        b=input("enter the STRING")
+        a=list(b)
+        if(len(a)==6):
+            l13[16]=a[0]
+            l14[16]=a[1]
+            l15[16]=a[2]
+            l16[16]=a[3]
+            l17[16]=a[4]
+            l18[16]=a[5]
+    if(q==17):
+        a=[]
+        b=input("enter the STRING")
+        a=list(b)
+        if(len(a)==3):
+            l15[10]=a[0]
+            l16[10]=a[1]
+            l17[10]=a[1]
+    return l1,l2,l3,l4,l5,l6,l7,l8,l9,l10,l11,l12,l13,l14,l15,l16,l17,l18,l19,l20
+
+def show():
+    print(l1)
+    print(l2)
+    print(l3)
+    print(l4)
+    print(l5)
+    print(l6)
+    print(l7)
+    print(l8)
+    print(l9)
+    print(l10)
+    print(l11)
+    print(l12)
+    print(l13)
+    print(l14)
+    print(l15)
+    print(l16)
+    print(l17)
+    print(l18)
+    print(l19)
+    print(l20)
+#accross
+def accross():
+    print("choose a ques no.\n1,3,4,8,9,13,16,18,19,20")
+    q=int(input("enter the q no."))
+    if(q==1):
+        a=[]
+        b=input("enter the STRING")
+        a=list(b)
+        if(len(a)==7):
+            n=7
+            for i in range(7):
+                l1[n]=a[i]
+                n+=1
+    if(q==3):
+        a=[]
+        b=input("enter the STRING")
+        a=list(b)
+        if(len(a)==16):
+            n=2
+            for i in range(16):
+                l3[n]=a[i]
+                n+=1
+    if(q==4):
+        a=[]
+        b=input("enter the STRING")
+        a=list(b)
+        if(len(a)==5):
+            n=8
+            for i in range(7):
+                l5[n]=a[i]
+                n+=1
+    if(q==8):
+        a=[]
+        b=input("enter the STRING")
+        a=list(b)
+        if(len(a)==8):
+            n=2
+            for i in range(7):
+                l8[n]=a[i]
+                n+=1
+    if(q==9):
+        a=[]
+        b=input("enter the STRING")
+        a=list(b)
+        if(len(a)==6):
+            n=12
+            for i in range(7):
+                l8[n]=a[i]
+                n+=1
+    if(q==13):
+        a=[]
+        b=input("enter the STRING")
+        a=list(b)
+        if(len(a)==8):
+            n=7
+            for i in range(7):
+                l12[n]=a[i]
+                n+=1
+    if(q==16):
+        a=[]
+        b=input("enter the STRING")
+        a=list(b)
+        if(len(a)==5):
+            n=5
+            for i in range(7):
+                l14[n]=a[i]
+                n+=1
+    if(q==18):
+        a=[]
+        b=input("enter the STRING")
+        a=list(b)
+        if(len(a)==7):
+            n=0
+            for i in range(7):
+                l17[n]=a[i]
+                n+=1
+    if(q==19):
+        a=[]
+        b=input("enter the STRING")
+        a=list(b)
+        if(len(a)==12):
+            n=8
+            for i in range(7):
+                l17[n]=a[i]
+                n+=1
+    if(q==20):
+        a=[]
+        b=input("enter the STRING")
+        a=list(b)
+        if(len(a)==10):
+            n=5
+            for i in range(7):
+                l20[n]=a[i]
+                n+=1
+    return l1,l2,l3,l4,l5,l6,l7,l8,l9,l10,l11,l12,l13,l14,l15,l16,l17,l18,l19,l20
+import time
+def countdown(n):
+    while(countdown!=0):#proper working ke liye jb tk cou nter chlta h
+        ques()
+        f=input("enter 1 for accross and 2 for down")#choice h 
+        if(f=="1"):
+            accross()
+            show()
+        if(f=="2"):
+            down()
+            show()
+        else:
+            print("wrong choice")    #defaultn  agr error AYI TOH
+#values compare krke marks show krn h ab or ans show krde
+countdown(2)
+ans()
