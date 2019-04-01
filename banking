@@ -1,0 +1,92 @@
+ #banking service
+def service1():
+    k="y"
+    while(k=="Y"or k== "y"):
+        ac=input("enter account no.")
+        s="y"
+        while(s=="Y"or s== "y"):
+            w2=input("enter 1 for add money \nenter 2 for withdraw money\n")
+            if(w2==1 or w2=="1"):
+                m1=int(input("enter the amount"))
+                m2=int(abalance[ac])+m1
+                abalance.update({ac:m2})
+                print("your name : {} \n the amount you have in account is : {}\n".format(ac[0],abalance[ac[1]]))
+            if(w2==2 or w2=="2"):
+                m=int(input("enter the amount"))
+                m2=int(abalance[ac])-m
+                abalance.update({ac:m2})
+                print("your name : {} \n the amount you have in account is : {}\n".format(ac[0],abalance[ac[1]]))
+            s=input("press y to continue and n to leave")
+        k=input("press y to continue and n to leave")
+        
+#loan service
+def service2():
+    x="y"
+    while(x=="Y"or x== "y"):
+        ac=input("enter loan no.")
+        s="y"
+        while(s=="Y"or s== "y"):
+            w2=input("enter 1 for pay money\n")
+            m1=int(input("enter the amount"))
+            m2=int(lbalance[ac])-m1
+            lbalance.update({ac:m2})
+            print("{} amount left to pay".format(lbalance[ac]))
+            s=input("press y to continue and n to leave")
+        x=input("press y to continue and n to leave")
+        
+# banking
+def banking():
+    n="y"
+    while(n=="y" or n=="Y"):
+        w1=input("enter 1 for add account \nenter 2 for avail services\nenter 3 for removal of account")
+        if(w1==1 or w1=="1"):
+            nw=input("enter the name and new account no.").split()
+            aaccount.update({nw[1]:nw[0]})
+            bal=int(input("enter the balance"))
+            abalance.update({nw[1]:bal})
+            print("your name : {} \n the amount you have in account is : {}\n".format(nw[0],abalance[nw[1]]))
+        if(w1==2 or w1=="2"):
+            service1()    
+        if(w1==3 or w1=="3"):
+            nw=input('enter the account no to be removed')
+            print("thank you for availing account in this bank {}".format(aaccount[nw]))
+            del aaccount[nw]      
+        n=input("press y to continue and n to leave") 
+        
+# loan
+def loan():
+    j="y"
+    while(j=="y" or j=="Y"):
+        w3=input("enter 1 for take a new loan \nenter 2 for avail services\nenter 3 for removal of loan")
+        if(w3==1 or w3=="1"):
+            nw=input("enter the name and new loan no.").split()
+            t=int(input('enter time peroid'))
+            laccount.update({nw[1]:nw[0]})
+            bal=int(input("enter the balance"))
+            bal=bal+(0.1*bal)
+            emi=bal/t
+            lbalance.update({nw[1]:bal})
+            print("emi {} per year".format(emi))
+            print("your name : {} \n the loan amount you have to pay : {}\n".format(nw[0],lbalance[nw[1]]))
+        if(w3==2 or w3=="2"):
+            service2()
+        if(w3==3 or w3=="3"):
+            nw=input('enter the account no to be removed')
+            print("thank you for availing loan {}".format(laccount[nw]))
+            del laccount[nw]   
+        j=input("press y to continue and n to leave")
+
+i="y"
+aaccount={}
+abalance={}
+laccount={}
+lbalance={}
+while(i=="y"):
+    while(True):
+        w=input("enter 1 for banking \nenter 2 for loan\n")
+        if(w==1 or w=="1"):
+            banking()
+        if(w==2 or w=="2"):
+            loan()   
+        i=input("press y to continue and n to leave")   
+
